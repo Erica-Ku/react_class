@@ -1,0 +1,83 @@
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7D5260;
+    color: white;
+}
+
+.main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.box1, .box2 {
+    height: 90vh;
+    display: flex;
+    margin-top: 20px;
+}
+
+.box1 {
+    width: 30vw;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.box2 {
+    width: 50vw;
+    justify-content: center;
+    align-items: top;
+}
+
+.dtdiv1 {
+    display: flex;
+    width: 30vw;
+    height: 8vh;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #FFB6C1;
+    color: white;
+}
+
+.dtdiv1:hover, .dtdiv1:active {
+    background-color: #FFF0F5;
+    color: #DB7093;
+    font-size: 20px;
+}
+
+.detail {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F08080;
+    border-radius: 10px;
+    background-color: #FFE4E1;
+    padding: 10px;
+    color: #F08080;
+}
+
+.list {
+    list-style-type: square;
+}
+
+@keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.lired {
+    color: red;
+    animation: blink-effect 0.5s step-end infinite;
+}
