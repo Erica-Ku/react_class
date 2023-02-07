@@ -9,13 +9,13 @@ const Gdt = ({selData}) => {
                 k === 'galTitle' ? "galTitle" : 
                 k==="galPhotographyLocation" ? "galPhotographyLocation" :
                 k==="galPhotographer" ? "galPhotographer" : 
-                k==="galPhotographyMonth" ? "galPhotographyMonth" : "galSearchKeyword"}>{selData[k]}  </span>
+                k==="galPhotographyMonth" ? "galPhotographyMonth" : "galSearchKeyword"}>{selData[k]}</span>
         </li>
     );
 
     dTag.unshift(
         <li key='galWebImageUrl'>
-        <span className="imgDt"><img src = {selData["galWebImageUrl"]}></img></span>
+            <span className="imgDt"><img src = {selData["galWebImageUrl"]}></img></span>
         </li>
     )
 
