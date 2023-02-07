@@ -129,7 +129,6 @@ const Gal = () => {
       }
 
     let dataAll = data.response.body.items.item;
-    
     let c1 = dataAll.map((item) => item["galTitle"]);
 
     return (
