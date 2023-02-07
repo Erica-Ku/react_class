@@ -128,19 +128,13 @@ const Gal = () => {
         }
       }
 
-    //dataAll : item의 값들 가져오기
     let dataAll = data.response.body.items.item;
-    console.log("dataAll", dataAll)
     
-    //c1 : 대분류 (galTitle)
-    let c1 = dataAll.map((item) => item["galTitle"]);  //"galTitle"의 값을 하나씩 가져와서 배열로 만들어줌
-    console.log("key", c1)
-
+    let c1 = dataAll.map((item) => item["galTitle"]);
 
     return (
         <>
           <GalMain c1={c1} dataAll={dataAll} />
-
         </>
     ); 
 }

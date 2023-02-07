@@ -19,16 +19,13 @@ const Gdt = ({selData}) => {
         </li>
     )
 
-
     return (
         <div className="gdt">
             <div className="detail">
                 <ul>{dTag}</ul>
             </div>
-
         </div>   
     );
-
 }
 
 export default Gdt;
