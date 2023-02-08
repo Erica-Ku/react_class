@@ -6,17 +6,6 @@
     align-items: top;
 }
 
-.header {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: orchid;
-    color: white;
-}
-
 .main {
     width: 100vw;
     height: 90vh;
@@ -71,6 +60,7 @@
     background-color: #F08080;
     color: white;
     font-weight: bold;
+    border: none;
 }
 
 ul {

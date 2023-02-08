@@ -1,4 +1,4 @@
-import Gheader from './Gheader'
+//import Gheader from './Gheader'
 import Gc1 from './Gc1'
 import Gdt from './Gdt'
 import './GalMain.css';
@@ -26,9 +26,6 @@ const GalMain = ({c1, dataAll}) => {
 
     return(
         <div className="content">
-            <div className="header">
-                <Gheader />
-            </div>
             <div className="main">
                 <Gc1 c1 = {c1} selC1 = {selC1} setSelC1 = {setSelC1}/>
                 <Gdt selData = {selData} />      

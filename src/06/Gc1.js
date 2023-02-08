@@ -1,5 +1,4 @@
 const Gc1 = ({c1, selC1, setSelC1}) => {
-
     const handleSelect = (item) => {
         setSelC1(item);
     };
@@ -14,7 +13,7 @@ const Gc1 = ({c1, selC1, setSelC1}) => {
             <div className="gc1b">
                 {c1Tag}
             </div>
-        </div>    
+        </div>
     );
 }
 
