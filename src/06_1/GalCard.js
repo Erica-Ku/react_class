@@ -3,7 +3,7 @@ const GalCard = ({cardItem}) => {
     return (
         <div className="concard"> 
             <div><img src={cardItem.galWebImageUrl} /></div>
-            <div>{cardItem.galTitle}</div>  
+            <div className="title">{cardItem.galTitle}</div>  
             <div className="conkw">{cardItem.galPhotographyMonth.substr(0,4)}.
             {cardItem.galPhotographyMonth.substr(2,2)}
             </div> 

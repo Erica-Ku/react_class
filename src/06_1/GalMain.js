@@ -8,8 +8,10 @@ const GalMain = ({c1, item}) => {
     //console.log("GalMain c1", c1) ;
 
     const txtR = useRef() ;
-    useEffect(()=>{}) ;
-    const [c1tag, setC1tag] = useState() ;
+    useEffect(()=>{
+        txtR.current.focus()
+    }) ;
+    const [c1tag, setC1tag] = useState([]) ;
     const showc1 = () => {
         console.log(txtR.current.value) ;
         let temp = c1.filter((i) => i.includes(txtR.current.value)) ;

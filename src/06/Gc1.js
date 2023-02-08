@@ -1,4 +1,11 @@
+import { useState, useEffect, useRef } from "react";
+
 const Gc1 = ({c1, selC1, setSelC1}) => {
+    const txtR = useRef() ;
+    useEffect(()=>{
+        txtR.current.focus()
+    }) ;
+
     const handleSelect = (item) => {
         setSelC1(item);
     };
@@ -10,6 +17,12 @@ const Gc1 = ({c1, selC1, setSelC1}) => {
 
     return(
         <div className="gc1">
+            <div>
+                <form>
+                    <input ref={txtR} type="text" name='txt1' />
+                    <button type='reset'>취소</button>
+                </form>
+            </div>
             <div className="gc1b">
                 {c1Tag}
             </div>
