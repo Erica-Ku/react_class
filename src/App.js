@@ -3,8 +3,9 @@
 //import MyForm from './08/MyForm';
 //import Gal1 from './06_1/Gal1';
 //import GalSelect from './06_1/GalSelect';
-import RouterMain from './09/RouterMain';
+//import RouterMain from './09/RouterMain';
 import { BrowserRouter } from 'react-router-dom';
+import Wmain from './10/Wmain';
 import './App.css';
 //import Taccident from './05/Taccident';
 
@@ -12,7 +13,7 @@ import './App.css';
 const App = () => {
   return (   
       <BrowserRouter>
-        <RouterMain />
+        <Wmain />
       </BrowserRouter>
   );
 }
