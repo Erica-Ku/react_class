@@ -1,7 +1,9 @@
 import Wheader from "./Wheader";
+import weather from "../db/weather.json"
 
-const W2 = ({data2}) => {
-    console.log(data2) ;
+const W2 = () => {
+    const data = weather.response.body.items.item ;
+    
     return (
         <div className="content">
             <Wheader title={'날씨예보-중기정보'} />
