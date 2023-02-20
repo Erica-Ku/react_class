@@ -26,3 +26,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## 한국관광공사 관광사진정보
 + 호스팅 주소 : https://galbusan-74b62.web.app/
+## 영화진흥위원회API 활용 - 박스오피스
++ 호스팅 주소 : https://movie-fbce1.web.app/
