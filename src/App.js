@@ -7,15 +7,17 @@
 //import { BrowserRouter } from 'react-router-dom';
 //import Wmain from './10/Wmain';
 //import Async from './11/Async';
-import Boxoffice from './11/Boxoffice';
+//import Boxoffice from './11/Boxoffice';
 import './App.css';
 //import Taccident from './05/Taccident';
+import Home from './maptest/Home';
 
 
 const App = () => {
   return (   
       //<BrowserRouter></BrowserRouter>
-      <Boxoffice />
+      //<Boxoffice />
+      <Home />
   );
 }
 
